@@ -66,7 +66,7 @@ This is the Optimization module in the OCE method.
 
 This is the main program to train the modified U-Net. Follow the tips in the beginning to make some adjustments.
 
-Here is the recommended versions:
+Here are the recommended versions:
 
 > The U-Net architecture is implemented using Keras 2.6.0 with the TensorFlow-GPU  2.6.0 backend. Other software environments are Python 3.7, CUDA 11.2, CUDNN 8.1, and  MATLAB R2022b. The network training is conducted on a Nvidia RTX 3090 24G GPU and  the generation of training data is conducted on an Intel Core i5-11400H CPU.
 
