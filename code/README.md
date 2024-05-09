@@ -6,7 +6,7 @@ All the main programs are here. All the utilities functions are inside the **fun
 
 This is a MATLAB APP for the simulation data generation for the U-Net training and testing.
 
-![Generation_app](F:\全息工作\英文论文\数据与代码\imgs\Generation_app.bmp)
+![Generation_app](../imgs/Generation_app.jpg)
 
 The three parameters **N_R, N_sigma and Gamma factor** are the found optimal parameters in the OCE method. It is worth pointing out that the N_R is inversed. For example, the optimal N_R is -0.3068 while the value should be 0.3068 here.
 
@@ -24,11 +24,11 @@ This is a main function for the compound focusing criterion.
 
 This is a MATLAB APP for the comparison between the prediction result and the reference result in the experiment, corresponding to Section 3.2 in the article.
 
-![compare_exp](F:\全息工作\英文论文\数据与代码\imgs\compare_exp.bmp)
+![compare_exp](../imgs/compare_exp.jpg)
 
 Click the **Run** button and you will get the result like this:
 
-![compare_exp_result](F:\全息工作\英文论文\数据与代码\imgs\compare_exp_result.bmp)
+![compare_exp_result](../imgs/compare_exp_result.jpg)
 
 The positive is the TP, the negative is the FP and the omitted is the FN.
 
@@ -36,15 +36,15 @@ The positive is the TP, the negative is the FP and the omitted is the FN.
 
 This is a MATLAB APP for the test in the simulation result corresponding to Section 3.1 in the article.
 
-![compare_sim](F:\全息工作\英文论文\数据与代码\imgs\compare_sim.bmp)
+![compare_sim](../imgs/compare_sim.jpg)
 
 Click **Run** button to run the program and get a result like this:
 
-![compare_sim_result](F:\全息工作\英文论文\数据与代码\imgs\compare_sim_result.bmp)
+![compare_sim_result](../imgs/compare_sim_result.jpg)
 
 In MATLAB Workspace you will get:
 
-![sim_result_sample](F:\全息工作\英文论文\数据与代码\imgs\sim_result_sample.bmp)
+![sim_result_sample](../imgs/sim_result_sample.jpg)
 
 The two pack are the ground truth pack and the prediction result pack, respectively. For example, each row corresponds one particle and the five columns are representative of lateral position, axial position, diameter and the group series number.
 
