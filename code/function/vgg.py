@@ -1,7 +1,6 @@
 from keras import layers
 
 
-# 修改过，周柏臻专属
 
 def VGG(img_input):
     # Block 1
