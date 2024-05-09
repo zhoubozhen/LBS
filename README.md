@@ -12,7 +12,7 @@ Deep learning has been widely used in the field of particle holography because i
 
 ## Requirements
 
-This is the recommended versions:
+These are the recommended versions:
 
 > The U-Net architecture is implemented using Keras 2.6.0 with the TensorFlow-GPU 2.6.0 backend. Other software environments are Python 3.7, CUDA 11.2, CUDNN 8.1, and MATLAB R2022b. The network training is conducted on a Nvidia RTX 3090 24G GPU and the generation of training data is conducted on an Intel Core i5-11400H CPU.
 
