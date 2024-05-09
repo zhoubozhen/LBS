@@ -6,7 +6,8 @@ All the main programs are here. All the utilities functions are inside the **fun
 
 This is a MATLAB APP for the simulation data generation for the U-Net training and testing.
 
-![Generation_app](../imgs/Generation_app.jpg)
+<img src=https://github.com/zhoubozhen/LBS/blob/main/imgs/Generation_app.jpg width=50%>
+
 
 The three parameters **N_R, N_sigma and Gamma factor** are the found optimal parameters in the OCE method. It is worth pointing out that the N_R is inversed. For example, the optimal N_R is -0.3068 while the value should be 0.3068 here.
 
@@ -24,11 +25,13 @@ This is a main function for the compound focusing criterion.
 
 This is a MATLAB APP for the comparison between the prediction result and the reference result in the experiment, corresponding to Section 3.2 in the article.
 
-![compare_exp](../imgs/compare_exp.jpg)
+<img src=https://github.com/zhoubozhen/LBS/blob/main/imgs/compare_exp.jpg width=50%>
+
 
 Click the **Run** button and you will get the result like this:
 
-![compare_exp_result](../imgs/compare_exp_result.jpg)
+<img src=https://github.com/zhoubozhen/LBS/blob/main/imgs/compare_exp_result.jpg width=20%>
+
 
 The positive is the TP, the negative is the FP and the omitted is the FN.
 
@@ -36,15 +39,18 @@ The positive is the TP, the negative is the FP and the omitted is the FN.
 
 This is a MATLAB APP for the test in the simulation result corresponding to Section 3.1 in the article.
 
-![compare_sim](../imgs/compare_sim.jpg)
+<img src=https://github.com/zhoubozhen/LBS/blob/main/imgs/compare_sim.jpg width=50%>
+
 
 Click **Run** button to run the program and get a result like this:
 
-![compare_sim_result](../imgs/compare_sim_result.jpg)
+<img src=https://github.com/zhoubozhen/LBS/blob/main/imgs/compare_sim_result.jpg width=20%>
+
 
 In MATLAB Workspace you will get:
 
-![sim_result_sample](../imgs/sim_result_sample.jpg)
+<img src=https://github.com/zhoubozhen/LBS/blob/main/imgs/sim_result_sample.jpg width=40%>
+
 
 The two pack are the ground truth pack and the prediction result pack, respectively. For example, each row corresponds one particle and the five columns are representative of lateral position, axial position, diameter and the group series number.
 
