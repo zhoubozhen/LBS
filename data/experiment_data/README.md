@@ -46,13 +46,13 @@ The 16 sub-holograms' reference result are inside this folder. Load one result i
 
 It is the training log file. It corresponds to the result:
 
-![图7](F:\全息工作\英文论文\OPTICA\OPTICA图\终稿V2bmp图\图7.bmp)
 
+![图8](../../imgs/training_and_validation.jpg)
 
 
 Here is the test result in the article:
 
-![图8](F:\全息工作\英文论文\OPTICA\OPTICA图\终稿V2bmp图\图8.bmp)
+![exp_result](../../imgs/exp_result.jpg)
 
 ## recon_images_25μm
 
