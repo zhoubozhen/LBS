@@ -1,0 +1,530 @@
+(4096, 256, 256, 1)
+2024-03-23 10:30:54.341101: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-23 10:30:57.332878: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 22313 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3090, pci bus id: 0000:e1:00.0, compute capability: 8.6
+/HOME/scz0bsc/.conda/envs/tensorflow26/lib/python3.7/site-packages/keras/optimizer_v2/optimizer_v2.py:356: UserWarning: The `lr` argument is deprecated, use `learning_rate` instead.
+  "The `lr` argument is deprecated, use `learning_rate` instead.")
+2024-03-23 10:30:58.594636: I tensorflow/core/profiler/lib/profiler_session.cc:131] Profiler session initializing.
+2024-03-23 10:30:58.594724: I tensorflow/core/profiler/lib/profiler_session.cc:146] Profiler session started.
+2024-03-23 10:30:58.594771: I tensorflow/core/profiler/internal/gpu/cupti_tracer.cc:1614] Profiler found 1 GPUs
+2024-03-23 10:30:58.596640: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcupti.so.11.2'; dlerror: libcupti.so.11.2: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/run01/scz0bsc/.conda/envs/tensorflow26/lib/python3.7/site-packages/cv2/../../lib64:/data/apps/anaconda/2020.11/lib:/data/apps/cudnn/8.1.1_cuda11.0_11.2/lib64:/data/apps/cuda/11.2/libnvvp:/data/apps/cuda/11.2/libnsight:/data/apps/cuda/11.2/lib64
+2024-03-23 10:30:58.598092: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcupti.so'; dlerror: libcupti.so: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /data/run01/scz0bsc/.conda/envs/tensorflow26/lib/python3.7/site-packages/cv2/../../lib64:/data/apps/anaconda/2020.11/lib:/data/apps/cudnn/8.1.1_cuda11.0_11.2/lib64:/data/apps/cuda/11.2/libnvvp:/data/apps/cuda/11.2/libnsight:/data/apps/cuda/11.2/lib64
+2024-03-23 10:30:58.598125: E tensorflow/core/profiler/internal/gpu/cupti_tracer.cc:1666] function cupti_interface_->Subscribe( &subscriber_, (CUpti_CallbackFunc)ApiCallback, this)failed with error CUPTI could not be loaded or symbol could not be found.
+2024-03-23 10:30:58.598150: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profiler session tear down.
+2024-03-23 10:30:58.598176: E tensorflow/core/profiler/internal/gpu/cupti_tracer.cc:1757] function cupti_interface_->Finalize()failed with error CUPTI could not be loaded or symbol could not be found.
+2024-03-23 10:30:59.571106: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+Epoch 1/100
+2024-03-23 10:31:04.551230: I tensorflow/stream_executor/cuda/cuda_dnn.cc:369] Loaded cuDNN version 8101
+256/256 - 71s - loss: 1.7768
+JI: 0.0, extract_rate: 0.00%, sum_pre_num: 0
+point: 0
+point improved, saving to sim49.h5
+
+Epoch 2/100
+256/256 - 47s - loss: 0.4800
+JI: 0.021, extract_rate: 2.06%, sum_pre_num: 2
+point: 0
+
+Epoch 3/100
+256/256 - 47s - loss: 0.2857
+JI: 0.01, extract_rate: 1.03%, sum_pre_num: 1
+point: 0
+
+Epoch 4/100
+256/256 - 47s - loss: 0.2105
+JI: 0.0, extract_rate: 0.00%, sum_pre_num: 0
+point: 0
+
+Epoch 5/100
+256/256 - 47s - loss: 0.1656
+JI: 0.041, extract_rate: 3.09%, sum_pre_num: 4
+point: 0
+
+Epoch 6/100
+256/256 - 47s - loss: 0.1282
+JI: 0.041, extract_rate: 4.12%, sum_pre_num: 5
+point: 0
+
+Epoch 7/100
+256/256 - 47s - loss: 0.1043
+JI: 0.041, extract_rate: 4.12%, sum_pre_num: 4
+point: 0
+
+Epoch 8/100
+256/256 - 47s - loss: 0.0823
+JI: 0.13, extract_rate: 10.31%, sum_pre_num: 13
+point: 0
+
+Epoch 9/100
+256/256 - 47s - loss: 0.0678
+JI: 0.147, extract_rate: 11.34%, sum_pre_num: 16
+point: 0
+
+Epoch 10/100
+256/256 - 47s - loss: 0.0559
+JI: 0.081, extract_rate: 6.19%, sum_pre_num: 8
+point: 0
+
+Epoch 11/100
+256/256 - 47s - loss: 0.0479
+JI: 0.154, extract_rate: 11.34%, sum_pre_num: 18
+point: 0
+
+Epoch 12/100
+256/256 - 47s - loss: 0.0405
+JI: 0.434, extract_rate: 36.08%, sum_pre_num: 60
+point: 0
+
+Epoch 13/100
+256/256 - 47s - loss: 0.0352
+JI: 0.274, extract_rate: 20.62%, sum_pre_num: 36
+point: 0
+
+Epoch 14/100
+256/256 - 47s - loss: 0.0313
+JI: 0.202, extract_rate: 16.49%, sum_pre_num: 28
+point: 0
+
+Epoch 15/100
+256/256 - 47s - loss: 0.0284
+JI: 0.409, extract_rate: 32.99%, sum_pre_num: 62
+point: 0.7389
+point improved, saving to sim49.h5
+
+Epoch 16/100
+256/256 - 47s - loss: 0.0250
+JI: 0.484, extract_rate: 40.21%, sum_pre_num: 68
+point: 0.8861
+point improved, saving to sim49.h5
+
+Epoch 17/100
+256/256 - 47s - loss: 0.0226
+JI: 0.348, extract_rate: 28.87%, sum_pre_num: 46
+point: 0
+
+Epoch 18/100
+256/256 - 47s - loss: 0.0201
+JI: 0.384, extract_rate: 30.93%, sum_pre_num: 58
+point: 0
+
+Epoch 19/100
+256/256 - 47s - loss: 0.0190
+JI: 0.664, extract_rate: 57.73%, sum_pre_num: 108
+point: 1.2413
+point improved, saving to sim49.h5
+
+Epoch 20/100
+256/256 - 47s - loss: 0.0172
+JI: 0.618, extract_rate: 54.64%, sum_pre_num: 100
+point: 1.1644
+
+Epoch 21/100
+256/256 - 47s - loss: 0.0160
+JI: 0.705, extract_rate: 64.95%, sum_pre_num: 122
+point: 1.3545
+point improved, saving to sim49.h5
+
+Epoch 22/100
+256/256 - 47s - loss: 0.0151
+JI: 0.651, extract_rate: 59.79%, sum_pre_num: 110
+point: 1.2489
+
+Epoch 23/100
+256/256 - 47s - loss: 0.0143
+JI: 0.81, extract_rate: 75.26%, sum_pre_num: 171
+point: 1.5626000000000002
+point improved, saving to sim49.h5
+
+Epoch 24/100
+256/256 - 47s - loss: 0.0130
+JI: 0.576, extract_rate: 48.45%, sum_pre_num: 94
+point: 1.0605
+
+Epoch 25/100
+256/256 - 47s - loss: 0.0117
+JI: 0.708, extract_rate: 64.95%, sum_pre_num: 134
+point: 1.3575
+
+Epoch 26/100
+256/256 - 47s - loss: 0.0111
+JI: 0.69, extract_rate: 61.86%, sum_pre_num: 118
+point: 1.3086
+
+Epoch 27/100
+256/256 - 47s - loss: 0.0108
+JI: 0.814, extract_rate: 80.41%, sum_pre_num: 207
+point: 1.6181
+point improved, saving to sim49.h5
+
+Epoch 28/100
+256/256 - 47s - loss: 0.0101
+JI: 0.779, extract_rate: 74.23%, sum_pre_num: 179
+point: 1.5213
+
+Epoch 29/100
+256/256 - 47s - loss: 0.0093
+JI: 0.731, extract_rate: 67.01%, sum_pre_num: 143
+point: 1.4011
+
+Epoch 30/100
+256/256 - 47s - loss: 0.0088
+JI: 0.811, extract_rate: 79.38%, sum_pre_num: 229
+point: 1.6048
+
+Epoch 31/100
+256/256 - 47s - loss: 0.0084
+JI: 0.815, extract_rate: 75.26%, sum_pre_num: 187
+point: 1.5676
+
+Epoch 32/100
+256/256 - 47s - loss: 0.0083
+JI: 0.797, extract_rate: 76.29%, sum_pre_num: 194
+point: 1.5599000000000003
+
+Epoch 33/100
+256/256 - 47s - loss: 0.0081
+JI: 0.817, extract_rate: 79.38%, sum_pre_num: 215
+point: 1.6107999999999998
+
+Epoch 34/100
+256/256 - 47s - loss: 0.0074
+JI: 0.826, extract_rate: 82.47%, sum_pre_num: 253
+point: 1.6507
+point improved, saving to sim49.h5
+
+Epoch 35/100
+256/256 - 47s - loss: 0.0071
+JI: 0.824, extract_rate: 80.41%, sum_pre_num: 219
+point: 1.6280999999999999
+
+Epoch 36/100
+256/256 - 47s - loss: 0.0069
+JI: 0.822, extract_rate: 78.35%, sum_pre_num: 232
+point: 1.6055
+
+Epoch 37/100
+256/256 - 47s - loss: 0.0066
+JI: 0.832, extract_rate: 80.41%, sum_pre_num: 225
+point: 1.6360999999999999
+
+Epoch 38/100
+256/256 - 47s - loss: 0.0063
+JI: 0.844, extract_rate: 79.38%, sum_pre_num: 242
+point: 1.6378
+
+Epoch 39/100
+256/256 - 47s - loss: 0.0063
+JI: 0.846, extract_rate: 82.47%, sum_pre_num: 268
+point: 1.6707
+point improved, saving to sim49.h5
+
+Epoch 40/100
+256/256 - 47s - loss: 0.0057
+JI: 0.826, extract_rate: 81.44%, sum_pre_num: 224
+point: 1.6404
+
+Epoch 41/100
+256/256 - 47s - loss: 0.0058
+JI: 0.846, extract_rate: 83.51%, sum_pre_num: 250
+point: 1.6811
+point improved, saving to sim49.h5
+
+Epoch 42/100
+256/256 - 47s - loss: 0.0060
+JI: 0.722, extract_rate: 63.92%, sum_pre_num: 127
+point: 1.3612
+
+Epoch 43/100
+256/256 - 47s - loss: 0.0066
+JI: 0.797, extract_rate: 78.35%, sum_pre_num: 201
+point: 1.5805
+
+Epoch 44/100
+256/256 - 47s - loss: 0.0049
+JI: 0.802, extract_rate: 75.26%, sum_pre_num: 198
+point: 1.5546000000000002
+
+Epoch 45/100
+256/256 - 47s - loss: 0.0049
+JI: 0.833, extract_rate: 79.38%, sum_pre_num: 207
+point: 1.6267999999999998
+
+Epoch 46/100
+256/256 - 47s - loss: 0.0046
+JI: 0.822, extract_rate: 79.38%, sum_pre_num: 205
+point: 1.6158
+
+Epoch 47/100
+256/256 - 47s - loss: 0.0048
+JI: 0.835, extract_rate: 78.35%, sum_pre_num: 210
+point: 1.6185
+
+Epoch 48/100
+256/256 - 47s - loss: 0.0045
+JI: 0.842, extract_rate: 82.47%, sum_pre_num: 230
+point: 1.6667
+
+Epoch 49/100
+256/256 - 47s - loss: 0.0043
+JI: 0.848, extract_rate: 81.44%, sum_pre_num: 199
+point: 1.6623999999999999
+
+Epoch 50/100
+256/256 - 47s - loss: 0.0039
+JI: 0.836, extract_rate: 83.51%, sum_pre_num: 197
+point: 1.6711
+
+Epoch 51/100
+256/256 - 47s - loss: 0.0039
+JI: 0.809, extract_rate: 78.35%, sum_pre_num: 220
+point: 1.5925
+
+Epoch 52/100
+256/256 - 47s - loss: 0.0038
+JI: 0.825, extract_rate: 80.41%, sum_pre_num: 215
+point: 1.6291
+
+Epoch 53/100
+256/256 - 47s - loss: 0.0038
+JI: 0.858, extract_rate: 83.51%, sum_pre_num: 223
+point: 1.6931
+point improved, saving to sim49.h5
+
+Epoch 54/100
+256/256 - 47s - loss: 0.0035
+JI: 0.85, extract_rate: 83.51%, sum_pre_num: 218
+point: 1.6851
+
+Epoch 55/100
+256/256 - 47s - loss: 0.0035
+JI: 0.839, extract_rate: 82.47%, sum_pre_num: 225
+point: 1.6637
+
+Epoch 56/100
+256/256 - 47s - loss: 0.0036
+JI: 0.85, extract_rate: 82.47%, sum_pre_num: 230
+point: 1.6747
+
+Epoch 57/100
+256/256 - 47s - loss: 0.0035
+JI: 0.841, extract_rate: 80.41%, sum_pre_num: 232
+point: 1.6451
+
+Epoch 58/100
+256/256 - 47s - loss: 0.0032
+JI: 0.84, extract_rate: 80.41%, sum_pre_num: 224
+point: 1.6441
+
+Epoch 59/100
+256/256 - 47s - loss: 0.0034
+JI: 0.857, extract_rate: 82.47%, sum_pre_num: 235
+point: 1.6817
+
+Epoch 60/100
+256/256 - 47s - loss: 0.0031
+JI: 0.852, extract_rate: 82.47%, sum_pre_num: 233
+point: 1.6766999999999999
+
+Epoch 61/100
+256/256 - 47s - loss: 0.0028
+JI: 0.85, extract_rate: 83.51%, sum_pre_num: 257
+point: 1.6851
+
+Epoch 62/100
+256/256 - 47s - loss: 0.0030
+JI: 0.867, extract_rate: 85.57%, sum_pre_num: 249
+point: 1.7227
+point improved, saving to sim49.h5
+
+Epoch 63/100
+256/256 - 47s - loss: 0.0029
+JI: 0.85, extract_rate: 84.54%, sum_pre_num: 251
+point: 1.6954
+
+Epoch 64/100
+256/256 - 47s - loss: 0.0028
+JI: 0.859, extract_rate: 83.51%, sum_pre_num: 247
+point: 1.6941000000000002
+
+Epoch 65/100
+256/256 - 47s - loss: 0.0027
+JI: 0.872, extract_rate: 85.57%, sum_pre_num: 251
+point: 1.7277
+point improved, saving to sim49.h5
+
+Epoch 66/100
+256/256 - 47s - loss: 0.0026
+JI: 0.847, extract_rate: 82.47%, sum_pre_num: 225
+point: 1.6717
+
+Epoch 67/100
+256/256 - 47s - loss: 0.0026
+JI: 0.865, extract_rate: 83.51%, sum_pre_num: 243
+point: 1.7001
+
+Epoch 68/100
+256/256 - 47s - loss: 0.0027
+JI: 0.853, extract_rate: 82.47%, sum_pre_num: 241
+point: 1.6777
+
+Epoch 69/100
+256/256 - 47s - loss: 0.0028
+JI: 0.84, extract_rate: 82.47%, sum_pre_num: 240
+point: 1.6646999999999998
+
+Epoch 70/100
+256/256 - 47s - loss: 0.0025
+JI: 0.858, extract_rate: 81.44%, sum_pre_num: 208
+point: 1.6724
+
+Epoch 71/100
+256/256 - 47s - loss: 0.0023
+JI: 0.874, extract_rate: 83.51%, sum_pre_num: 237
+point: 1.7091
+
+Epoch 72/100
+256/256 - 47s - loss: 0.0022
+JI: 0.862, extract_rate: 83.51%, sum_pre_num: 244
+point: 1.6971
+
+Epoch 73/100
+256/256 - 47s - loss: 0.0024
+JI: 0.87, extract_rate: 85.57%, sum_pre_num: 278
+point: 1.7256999999999998
+
+Epoch 74/100
+256/256 - 47s - loss: 0.0023
+JI: 0.873, extract_rate: 82.47%, sum_pre_num: 242
+point: 1.6977
+
+Epoch 75/100
+256/256 - 47s - loss: 0.0022
+JI: 0.837, extract_rate: 82.47%, sum_pre_num: 234
+point: 1.6617
+
+Epoch 76/100
+256/256 - 47s - loss: 0.0022
+JI: 0.859, extract_rate: 83.51%, sum_pre_num: 254
+point: 1.6941000000000002
+
+Epoch 77/100
+256/256 - 49s - loss: 0.0021
+JI: 0.858, extract_rate: 84.54%, sum_pre_num: 253
+point: 1.7034
+
+Epoch 78/100
+256/256 - 47s - loss: 0.0021
+JI: 0.846, extract_rate: 80.41%, sum_pre_num: 228
+point: 1.6501000000000001
+
+Epoch 79/100
+256/256 - 47s - loss: 0.0022
+JI: 0.867, extract_rate: 82.47%, sum_pre_num: 238
+point: 1.6917
+
+Epoch 80/100
+256/256 - 47s - loss: 0.0020
+JI: 0.863, extract_rate: 84.54%, sum_pre_num: 248
+point: 1.7084000000000001
+
+Epoch 81/100
+256/256 - 47s - loss: 0.0021
+JI: 0.853, extract_rate: 85.57%, sum_pre_num: 252
+point: 1.7086999999999999
+
+Epoch 82/100
+256/256 - 47s - loss: 0.0019
+JI: 0.872, extract_rate: 85.57%, sum_pre_num: 259
+point: 1.7277
+
+Epoch 83/100
+256/256 - 47s - loss: 0.0021
+JI: 0.853, extract_rate: 84.54%, sum_pre_num: 264
+point: 1.6984
+
+Epoch 84/100
+256/256 - 47s - loss: 0.0020
+JI: 0.886, extract_rate: 85.57%, sum_pre_num: 249
+point: 1.7416999999999998
+point improved, saving to sim49.h5
+
+Epoch 85/100
+256/256 - 47s - loss: 0.0018
+JI: 0.87, extract_rate: 84.54%, sum_pre_num: 262
+point: 1.7154
+
+Epoch 86/100
+256/256 - 47s - loss: 0.0018
+JI: 0.865, extract_rate: 83.51%, sum_pre_num: 250
+point: 1.7001
+
+Epoch 87/100
+256/256 - 47s - loss: 0.0020
+JI: 0.874, extract_rate: 85.57%, sum_pre_num: 247
+point: 1.7296999999999998
+
+Epoch 88/100
+256/256 - 47s - loss: 0.0018
+JI: 0.857, extract_rate: 84.54%, sum_pre_num: 257
+point: 1.7024
+
+Epoch 89/100
+256/256 - 47s - loss: 0.0017
+JI: 0.884, extract_rate: 84.54%, sum_pre_num: 260
+point: 1.7294
+
+Epoch 90/100
+256/256 - 47s - loss: 0.0015
+JI: 0.86, extract_rate: 82.47%, sum_pre_num: 261
+point: 1.6846999999999999
+
+Epoch 91/100
+256/256 - 47s - loss: 0.0017
+JI: 0.859, extract_rate: 83.51%, sum_pre_num: 261
+point: 1.6941000000000002
+
+Epoch 92/100
+256/256 - 47s - loss: 0.0017
+JI: 0.864, extract_rate: 83.51%, sum_pre_num: 271
+point: 1.6991
+
+Epoch 93/100
+256/256 - 47s - loss: 0.0017
+JI: 0.856, extract_rate: 83.51%, sum_pre_num: 255
+point: 1.6911
+
+Epoch 94/100
+256/256 - 47s - loss: 0.0016
+JI: 0.861, extract_rate: 84.54%, sum_pre_num: 280
+point: 1.7064
+
+Epoch 95/100
+256/256 - 47s - loss: 0.0017
+JI: 0.86, extract_rate: 81.44%, sum_pre_num: 240
+point: 1.6743999999999999
+
+Epoch 96/100
+256/256 - 47s - loss: 0.0018
+JI: 0.862, extract_rate: 83.51%, sum_pre_num: 252
+point: 1.6971
+
+Epoch 97/100
+256/256 - 47s - loss: 0.0015
+JI: 0.88, extract_rate: 85.57%, sum_pre_num: 270
+point: 1.7357
+
+Epoch 98/100
+256/256 - 47s - loss: 0.0015
+JI: 0.866, extract_rate: 84.54%, sum_pre_num: 262
+point: 1.7114
+
+Epoch 99/100
+256/256 - 47s - loss: 0.0015
+JI: 0.882, extract_rate: 84.54%, sum_pre_num: 264
+point: 1.7274
+
+Epoch 100/100
+256/256 - 47s - loss: 0.0015
+JI: 0.871, extract_rate: 86.60%, sum_pre_num: 273
+point: 1.737
+
