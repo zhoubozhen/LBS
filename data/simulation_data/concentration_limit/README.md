@@ -1,6 +1,6 @@
 # Simulation data for the simulation result presented in Section 3.1 in the article
 
-<u>All the data in the five folders is not included now, but it can be obtained from the authors upon reasonable request. You can generate the all the data by yourself using the **generate_simulation.mlapp** in the **code** folder.</u> 
+***All the data in the five folders is not included now, but it can be obtained from the authors upon reasonable request. You can generate the all the data by yourself using the **generate_simulation.mlapp** in the **code** folder.***
 
 Here is part of the source text in Section 3.1:
 
