@@ -20,6 +20,8 @@ These are the recommended versions:
 > The U-Net architecture is implemented using Keras 2.6.0 with the TensorFlow-GPU 2.6.0 backend. Other software environments are Python 3.7, CUDA 11.2, CUDNN 8.1, and MATLAB R2022b. The network training is conducted on a Nvidia RTX 3090 24G GPU and the generation of training data is conducted on an Intel Core i5-11400H CPU.
 
 ## Quick Start
+Please click *download ZIP* button in the main branch and in the master branch respectively. Note that the **experiment_data.rar** in the master branch may be too big, so sometimes after clicking the *down load ZIP* button, you may not get a correct rar file. If that happens, we suggest that you get to the **experiment_data.rar** file's website and click the raw button:
+
 1. Get all the data in the master branch first and unzip them all. Put all the data into the data folder. Replace all the data originally inside with the full version you get from the master branch.
 
 2. After that, inside your data folder are two folders, namely the *experiment_data* and *simulation_data* folder.
