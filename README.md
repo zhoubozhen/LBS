@@ -6,6 +6,9 @@ Authors: Bozhen Zhou (zbz22@mails.tsinghua.edu.cn) and Ping Su (su.ping@sz.tsing
 
 ---
 
+***All the codes are in the code folder. All the experimental data and Some of the simulation data are in the master branch. Note that the data in the data folder here is just a part for exhibition. If you need additional data, feel free to reach out to the authors.***
+
+
 ## Abstract
 
 Deep learning has been widely used in the field of particle holography because it can greatly improve reconstruction efficiency. Obtaining the ground truth of a real particle field is almost impossible, which makes the results by traditional deep learning methods unreliable, especially for particle fields with high concentration. However, the multiple-scattering process by the dense particles is too complex to be modeled either physically or by a neural network. To address this issue, we present a **learning from better simulation (LBS) method** in this paper. Utilizing the physical information from experimentally captured hologram by an optimization method, the LBS method bypasses the multiple-scattering process and creates highly realistic synthetic data for training a simple U-Net. Training the model entirely on synthetic data, the U-Net can quickly generalize to experimental data without any manual labeling. We present simulation and experimental results to demonstrate the effectiveness and robustness of the proposed technique in the highest-concentration scenario by far. The proposed method paves the way toward reliable particle field imaging in high concentration and can potentially guide the design of optimization toward simulation data in other fields.
