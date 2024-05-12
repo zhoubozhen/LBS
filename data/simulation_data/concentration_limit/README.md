@@ -28,7 +28,7 @@ The trained model for testing is **concentration_limit_model.h5**. <u>It is not 
 
 Here is the corresponding test result presented in the article:
 
-![极限浓度成图增强版](F:\全息工作\英文论文\LPR\图\极限浓度\极限浓度成图增强版.bmp)
+![极限浓度成图增强版](../../../imgs/concentration_limit.jpg)
 
 
 
