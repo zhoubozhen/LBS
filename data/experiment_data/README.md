@@ -1,5 +1,7 @@
 # Experimental data for the experiment result presented in Section 3.2 in the article
 
+***The full version of the experimental data is included in the master branch. The data here is just one part of the full version.***
+
 Here is part of the source text in Section 3.2:
 
 > The particle concentration measures 10,000 particles/mL when the solution is diluted. A hologram is captured by the image sensor, and a region with a size of 1024×1024 in the whole hologram is cropped and selected as the test data (Fig. 3(a)). We crop this region to 4×4 sub-holograms with the size of 256×256 and backpropagate them to get 976 reconstructed images (1800-4800 μm, interval 50 μm, shape 256×256×976).
