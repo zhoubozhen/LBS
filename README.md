@@ -21,7 +21,7 @@ These are the recommended versions:
 
 ## Quick Start
 Please click *download ZIP* button in the main branch and in the master branch respectively. Note that the **experiment_data.rar** in the master branch may be too big, so sometimes after clicking the *down load ZIP* button, you may not get a correct rar file. If that happens, we suggest that you get to the **experiment_data.rar** file's website and click the raw button:
-
+![warning](https://github.com/zhoubozhen/LBS/blob/main/imgs/warning.jpg)
 1. Get all the data in the master branch first and unzip them all. Put all the data into the data folder. Replace all the data originally inside with the full version you get from the master branch.
 
 2. After that, inside your data folder are two folders, namely the *experiment_data* and *simulation_data* folder.
