@@ -6,7 +6,7 @@ Authors: Bozhen Zhou (zbz22@mails.tsinghua.edu.cn) and Ping Su (su.ping@sz.tsing
 
 ---
 
-***All the codes are in the code folder. All the experimental data and Some of the simulation data are in the master branch. Note that the data in the data folder here is just a part for exhibition. If you need additional data, feel free to reach out to the authors.***
+***All the codes are in the code folder. Note that the data in the data folder here is just a part for exhibition. All the experimental data and some of the simulation data are in the master branch.  You can generate all the simulation data by yourself by running the generate_simulation.mlapp in the code folder. If you still need additional data, feel free to reach out to the authors.***
 
 
 ## Abstract
@@ -20,3 +20,7 @@ These are the recommended versions:
 > The U-Net architecture is implemented using Keras 2.6.0 with the TensorFlow-GPU 2.6.0 backend. Other software environments are Python 3.7, CUDA 11.2, CUDNN 8.1, and MATLAB R2022b. The network training is conducted on a Nvidia RTX 3090 24G GPU and the generation of training data is conducted on an Intel Core i5-11400H CPU.
 
 ## Quick Start
+1. Get all the data in the master branch first and unzip them all. Put all the data into the data folder. Replace all the data originally inside with the full version you get from the master branch.
+
+2. After that, inside your data folder are two folders, namely the *experiment_data* and *simulation_data* folder.
+3. In the code folder, run the programs according to the README there.
