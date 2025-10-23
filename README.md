@@ -1,6 +1,10 @@
 # LBS： Learning from Better Simulation
 
-Authors: Bozhen Zhou (zbz22@mails.tsinghua.edu.cn) and Ping Su (su.ping@sz.tsinghua.edu.cn)
+This is the code for Zhou, Bozhen, et al. "Learning from better simulation: creating highly realistic synthetic data for deep learning in scattering media." Advanced Photonics Nexus 4.5 (2025): 056007-056007.
+
+Some codes may be a little bit outdated. If you have any questions, you can contact me by my email.
+
+Author: Bozhen Zhou (bozhen2@illinois.edu)
 
 *Tsinghua Shenzhen International Graduate School, Tsinghua University*
 
@@ -26,3 +30,4 @@ Please click *download ZIP* button in the main branch and in the master branch r
 
 2. After that, inside your data folder are two folders, namely the *experiment_data* and *simulation_data* folder.
 3. In the code folder, run the programs according to the README there.
+
